@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi Webo Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!--Logo y menu-->
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img height="80px" width="80px" src="img/logo.webp" alt="" />
+      </a>
+      <ul class="Menu-Horizonal">
+        <li><a href="">Personas</a></li>
+        <li><a href="">Empresas</a></li>
+        <li>
+          <a href="">Productos</a>
+
+          <ul class="Menu-Vertical">
+            <li><a href="">Tarjetas</a></li>
+            <li><a href="">Cuentas</a></li>
+            <li><a href="">Prestamos</a></li>
+            <li><a href="">Seguros</a></li>
+          </ul>
+        </li>
+        <li><a href="">Abre tu cuenta</a></li>
+        <li><a href="">Contactanos</a></li>
+      </ul>
+    </nav>
+    <!--Seccion-personas-->
+    <section class="seccion-persona">
+      <div class="div-gral-persona">
+        <div class="div-pers-texto">
+          <h2>Seccion Personas</h2>
+          <p>
+            Puede ser un seguro en caso de muerte se recibe la cantidad
+            asegurada en caso de muerte, o en caso de vida la aseguradora paga
+            al asegurado el importe del seguro, siempre que viva al vencimiento
+            de un determinado periodo de tiempo. También puede convenirse el
+            pago de una renta periódica mientras viva el asegurado, a partir de
+            una fecha establecida de antemano.
+          </p>
+          <p>
+            El seguro de vida obliga al asegurador o empresa aseguradora a
+            satisfacer al beneficiario un capital, una renta u otras
+            prestaciones convenidas, en el caso de muerte o de supervivencia del
+            asegurado. El seguro de vida puede contratarse sobre la vida propia
+            o la de otra persona (un tercero) y puede ser también un seguro que
+            cubra a una o varias personas.
+          </p>
+        </div>
+        <div class="div-pers-img">
+          <img src="img/img2.avif" />
+        </div>
+      </div>
+    </section>
+
+    <!--Seccion empresa-->
+    <section class="seccion-empresa">
+      <div class="div-gral-empresa">
+        <div class="div-empresa-texto">
+          <h2>Seccion Empresa</h2>
+          <p>
+            En numerosas ocasiones los seguros de vida, por desconocimiento de
+            su existencia por los familiares o allegados cuando se produce el
+            hecho causante -muerte, incapacidad, invalidez, etc, se queda sin
+            cobrar. Para evitar esta situación existen, dependiendo de la
+            obligación legal en los distintos países, registros de seguros de
+            vida que pueden consultarse siempre para conocer si existe algún
+            seguro de vida cuyo titular es la persona fallecida o incapacitada
+          </p>
+          <p>
+            La función principal del registro de seguros de vida es evitar que
+            las pólizas de seguro de vida se queden sin cobrar, por
+            desconocimiento de los beneficiarios de la existencia de la póliza.
+          </p>
+        </div>
+        <div class="div-empresa-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/5-G05Sy9mnA?si=LgQPIvYbg-9VIuKC"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--Seccion formulario-->
+    <section class="seccion-formulario">
+      <div class="div-cont-formulario">
+        <h2>Formulario de Registro</h2>
+        <p>Complete todos los campos</p>
+        <form class="formulario">
+          <!--Input/label-->
+          <div class="campo">
+            <label for="nombre">Nombres Completos:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese sus nombres"
+            />
+          </div>
+          <!--Lista desplegable-->
+          <div class="campo">
+            <label for="nombre">Pais:</label>
+            <select id="pais" name="pais">
+              <option value="">Seleccione un pais</option>
+              <option value="peru">Peru</option>
+              <option value="chile">Chile</option>
+              <option value="colombia">Colombia</option>
+              <option value="ecuador">Ecuador</option>
+              <option value="brasil">Brasil</option>
+            </select>
+          </div>
+          <!--Checkbox-->
+          <div class="campo">
+            <label>Interes:</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="plata"
+                  />plata</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="patrimonio"
+                  />patrimonio</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="herencia"
+                  />herencia</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="riqueza"
+                  />riqueza</label
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Radio-->
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="femenino"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar solicitud de amistad</button>
+        </form>
+      </div>
+    </section>
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="Imagenes/senati-logo.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>SENATI</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="/Documentos/Terminos-Condiciones.pdf"
+              >Términos y Condiciones</a
+            >
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

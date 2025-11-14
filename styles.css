@@ -1,0 +1,160 @@
+/*Logo y Menus*/
+.topheader {
+  position: fixed;
+  background-color: blue;
+  width: 100%;
+  height: 5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+.Menu-Horizonal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Menu-Horizonal li a {
+  display: block;
+  color: white;
+  padding: 0.938rem 1.25rem;
+  text-decoration: none;
+}
+.Menu-Vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 9.375rem;
+}
+.Menu-Vertical li a {
+  color: black;
+}
+.Menu-Horizonal li a:hover {
+  color: white;
+  font-size: 1.563rem;
+}
+.Menu-Horizonal li:hover .Menu-Vertical {
+  display: block;
+}
+/*Seccion personas*/
+.seccion-persona {
+  padding: 3.75rem 1.25rem;
+  background-color: white;
+}
+.div-gral-persona {
+  display: flex;
+  justify-self: space-around;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-pers-texto {
+  flex: 1;
+}
+.div-pers-texto h2 {
+  color: red;
+  line-height: 1.6;
+}
+.div-pers-texto p {
+  text-align: justify;
+  color: black;
+  font-size: 0.938rem;
+}
+.div-pers-img {
+  flex: 1;
+}
+.div-pers-img img {
+  width: 100%;
+  max-width: 31.25rem;
+}
+/*Seccion Empresa*/
+.seccion-empresa {
+  padding: 3.75rem 1.25rem;
+  background-color: grey;
+}
+.div-gral-empresa {
+  display: flex;
+  justify-self: space-around;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-empresa-texto {
+  flex: 1;
+}
+.div-empresa-texto h2 {
+  color: blue;
+  line-height: 1.6;
+}
+.div-empresa-texto p {
+  text-align: justify;
+  color: black;
+  font-size: 0.938rem;
+}
+.div-empresa-video {
+  flex: 1;
+}
+.div-empresa-video iframe {
+  width: 100%;
+  max-width: 31.25rem;
+}
+/*Seccion formulario*/
+.seccion-formulario {
+  background-color: rgb(221, 115, 40);
+  padding: 2.5rem;
+  border: 0.188rem solid red;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.div-cont-formulario {
+  background-color: gray;
+  padding: 1.875rem;
+  border: 0.125rem solid red;
+  border-radius: 0.625rem;
+  width: 100%;
+  max-width: 31.25rem;
+}
+.campo {
+  border: 0.063rem solid red;
+  padding: 0.938rem;
+  margin-bottom: 0.938rem;
+  border-radius: 0.5rem;
+  background-color: rgb(128, 196, 128);
+}
+.formulario label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: aqua;
+}
+.formulario input[type="text"],
+.formulario select {
+  width: 100%;
+  padding: 0.625rem;
+  border: 0.125rem solid ghostwhite;
+  box-sizing: border-box;
+}
+.lista-checkbox,
+.lista-radio {
+  list-style: none;
+  padding: 0.625rem;
+  margin: 0;
+  border: 0.125rem solid bisque;
+  background-color: darkblue;
+  color: cadetblue;
+  border-radius: 0.313rem;
+}
+.formulario button {
+  background-color: black;
+  color: whitesmoke;
+  border: 0.625rem solid pink;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
