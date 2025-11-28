@@ -4,16 +4,16 @@ function validarLogin(event) {
   event.preventDefault();
 
   // Clave estática para la demo
-  const CLAVE_SECRETA = "ok";
+  const CLAVE_SECRETA = "IHC";
   const passwordInput = document.getElementById("password").value;
 
   // 2. Realizar la verificación
   if (passwordInput.toLowerCase() === CLAVE_SECRETA) {
-    alert("¡Acceso concedido! Bienvenido.");
+    alert("¡Gracias por el 20 profe! Bienvenido.");
     // Redirige a tu página principal
     window.location.href = "landingpage.html";
   } else {
-    alert("Clave incorrecta. Inténtalo de nuevo.");
+    alert("Habil te crees. Inténta de nuevo.");
     document.getElementById("password").value = "";
   }
 
