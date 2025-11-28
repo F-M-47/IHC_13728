@@ -9,7 +9,7 @@ function validarLogin(event) {
 
   // 2. Realizar la verificación
   if (passwordInput.toLowerCase() === CLAVE_SECRETA) {
-    alert("¡Gracias por el 20 profe! Bienvenido.");
+    alert("¡Gracias por el 20 profe! Pase usted.");
     // Redirige a tu página principal
     window.location.href = "landingpage.html";
   } else {
