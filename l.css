@@ -15,14 +15,8 @@ body {
   font-size: 20px;
 }
 
-.menu-icon,
-.user-icon {
-  font-size: 26px;
-  cursor: pointer;
-}
-
-/* IMAGEN PRINCIPAL */
 .imagen-container {
+  height: 100%;
   display: flex;
   justify-content: center;
   padding: 10px;
