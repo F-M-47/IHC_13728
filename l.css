@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-color: #58aaf6;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background-color: #58aaf6;
+  color: white;
+  font-size: 20px;
+}
+
+.menu-icon,
+.user-icon {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* IMAGEN PRINCIPAL */
+.imagen-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.imagen-container img {
+  width: 90%;
+  border-radius: 12px;
+  max-width: 350px;
+}
+
+/* LISTA DE LOTES */
+.lotes-container {
+  background: #e9ecef;
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.lote {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.lote:last-child {
+  margin-bottom: 0;
+}
+
+.lote-id {
+  width: 30px;
+  font-weight: bold;
+}
+
+.icono-camion {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.lote p {
+  margin: 0;
+}
